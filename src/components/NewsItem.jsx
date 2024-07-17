@@ -15,7 +15,7 @@ const NewsItem = (props) => {
             {props.article.title}
           </a>
         </h2>
-        <p>내용</p>
+        <p>{props.article.description}</p>
       </div>
     </div>
   );

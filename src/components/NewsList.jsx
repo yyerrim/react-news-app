@@ -6,7 +6,7 @@ const NewsList = (props) => {
     <div className={styles.block}>
       {
         props.articles.map((article) => {
-          return <NewsItem article={article} />
+          return <NewsItem key={article.url} article={article} />
         })
       }
     </div>
